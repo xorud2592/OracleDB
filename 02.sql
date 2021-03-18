@@ -108,3 +108,11 @@ SELECT emp.employee_id, emp.first_name,
     man.first_name
 FROM employees emp JOIN employees man 
                 ON emp.manager_id = man.employee_id;
+                
+                
+SELECT COUNT(*) FROM employees;
+SELECT COUNT(commission_pct) FROM employees;
+SELECT COUNT(*) FROM employees WHERE commission_pct is not null;
+
+
+SELECT COUNT(*) FROM employees WHERE commission_pct is not null;

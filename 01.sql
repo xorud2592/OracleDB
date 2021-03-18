@@ -1,6 +1,7 @@
 -- 현재 계정 내에 어떤 테이블이 있는가?
 SELECT * FROM tab;
 
+
 -- 테이블의 구조 확인 DESC
 DESC employees;
 
